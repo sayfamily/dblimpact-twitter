@@ -1,0 +1,713 @@
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 21:57:55 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 28ms (Views: 27.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 21:58:06 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKk2yAGUvzxSoUSkfIHj204VtfXHhjGAwar3vdZjvh4=", "x"=>"91", "y"=>"14"}
+Completed   in 84ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:16:36 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:16:41 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKk2yAGUvzxSoUSkfIHj204VtfXHhjGAwar3vdZjvh4=", "x"=>"86", "y"=>"13"}
+Completed   in 84ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:19:02 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:19:04 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKk2yAGUvzxSoUSkfIHj204VtfXHhjGAwar3vdZjvh4=", "x"=>"100", "y"=>"12"}
+Completed   in 83ms
+
+OAuth::Unauthorized (401 Unauthorized):
+  app/controllers/sessions_controller.rb:7:in `create'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (35.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:22:23 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 118ms (Views: 117.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:22:25 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TKk2yAGUvzxSoUSkfIHj204VtfXHhjGAwar3vdZjvh4=", "x"=>"124", "y"=>"14"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=Zy6ZodCfFJ4SUsG6110chEhEtuKAeRBSoHsBxnyN4
+Completed 302 Found in 240ms
+
+
+Started GET "/sessions/callback?oauth_token=Zy6ZodCfFJ4SUsG6110chEhEtuKAeRBSoHsBxnyN4&oauth_verifier=rOlAoVSqsskQjnYHZjST6Y9L7XT7ffS9nd9D9RoGg" for 127.0.0.1 at 2011-08-18 22:22:46 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"Zy6ZodCfFJ4SUsG6110chEhEtuKAeRBSoHsBxnyN4", "oauth_verifier"=>"rOlAoVSqsskQjnYHZjST6Y9L7XT7ffS9nd9D9RoGg"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 3853ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:22:50 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (527.0ms)
+Completed 200 OK in 2150ms (Views: 1071.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:25:02 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 96ms (Views: 95.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:25:08 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mOGWTnR+mqT8H8zoWwRbTslimmzTA+uzCzfIh5YogKI=", "x"=>"103", "y"=>"14"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=20JgYoLtftuX9hkZ4dBgRFsY9g8hkDiZI8TRtRiJ5vk
+Completed 302 Found in 103ms
+
+
+Started GET "/sessions/callback?oauth_token=20JgYoLtftuX9hkZ4dBgRFsY9g8hkDiZI8TRtRiJ5vk&oauth_verifier=XrHfv8j8sReQRd4TPZenM31b62YwvC0nJHuDSqBPx0" for 127.0.0.1 at 2011-08-18 22:25:40 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"20JgYoLtftuX9hkZ4dBgRFsY9g8hkDiZI8TRtRiJ5vk", "oauth_verifier"=>"XrHfv8j8sReQRd4TPZenM31b62YwvC0nJHuDSqBPx0"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 287ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:25:40 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 376ms (Views: 37.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:25:58 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 375ms (Views: 28.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:26:21 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:26:40 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JoOAr6bVSk6HGCj+NYiJbHdc3w/lpZteS/lqV7QAWTM=", "x"=>"128", "y"=>"16"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=M0zqNDh8dugHvdF1tvJsq4XEPIlw6MyXaQQSMZOYlc
+Completed 302 Found in 82ms
+
+
+Started GET "/sessions/callback?oauth_token=M0zqNDh8dugHvdF1tvJsq4XEPIlw6MyXaQQSMZOYlc&oauth_verifier=3LHlICw1Z7uLUHsqdVsyyrQbgY4dlKju8JmDOyhvaM" for 127.0.0.1 at 2011-08-18 22:26:47 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"M0zqNDh8dugHvdF1tvJsq4XEPIlw6MyXaQQSMZOYlc", "oauth_verifier"=>"3LHlICw1Z7uLUHsqdVsyyrQbgY4dlKju8JmDOyhvaM"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 273ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:26:47 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 370ms (Views: 25.0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-18 22:27:12 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 370ms (Views: 27.0ms)
+
+
+Started POST "/sessions/destroy" for 127.0.0.1 at 2011-08-18 22:27:19 -0700
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zQlHbT3U2Xka1/ZVX+fVAO6KW495VsAda0dcLVbOn2c=", "commit"=>"Sign out", "id"=>"destroy"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-18 22:27:19 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 31ms (Views: 31.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:27:24 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:28:38 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 22:46:23 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rpElkzXRCo7o92DfrktJCLnaNcjKCIirOX8SzUWp//k=", "x"=>"92", "y"=>"8"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=CRKy9cao9jrEBiD0DAISYhTLwaJCbfTCOo3K8Z7CTo
+Completed 302 Found in 88ms
+
+
+Started GET "/sessions/callback?oauth_token=CRKy9cao9jrEBiD0DAISYhTLwaJCbfTCOo3K8Z7CTo&oauth_verifier=ycWBhwgAPJdCrnjZg502bv5ftDCHIzw03UnZV9HUQUo" for 127.0.0.1 at 2011-08-18 22:46:37 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"CRKy9cao9jrEBiD0DAISYhTLwaJCbfTCOo3K8Z7CTo", "oauth_verifier"=>"ycWBhwgAPJdCrnjZg502bv5ftDCHIzw03UnZV9HUQUo"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 318ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:46:37 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 387ms (Views: 44.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:55:00 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (175.0ms)
+Completed   in 546ms
+
+ActionView::Template::Error (undefined method `pr' for #<#<Class:0x34707c0>:0x346ee40>):
+    31:       </td>
+    32:     </tr>
+    33:   </table>
+    34:   <% pr(@user) %>
+    35:   <% unless @user.status.blank? %>
+    36:   <p>
+    37:     <%= "#{time_ago_in_words(@user.status.created_at).capitalize} ago, you said:" %>
+  app/views/sessions/new.html.erb:34:in `_app_views_sessions_new_html_erb___187334012_27487704__481704266'
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:55:14 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 416ms (Views: 79.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:55:49 -0700
+  Processing by SessionsController#new as HTML
+ERROR: compiling _app_views_sessions_new_html_erb___187334012_28358724__481704266 RAISED C:/wamp/www/twitter-app/app/views/sessions/new.html.erb:34: syntax error, unexpected tFID, expecting keyword_end
+');   debug(@user) exit! 
+                        ^
+Function body:           def _app_views_sessions_new_html_erb___187334012_28358724__481704266(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "sessions/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; if signed_in? 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( image_tag(@user.profile_image_url).html_safe );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <h3>
+    Welcome ');@output_buffer.append= ( link_to(@user.name, @user.url) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </h3>
+  <table>
+');     unless @user.location.blank? 
+@output_buffer.safe_concat('    <tr>
+      <th>
+        Location
+      </th>
+      <td>
+        ');@output_buffer.append= ( @user.location );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </td>
+    </tr>
+');     end 
+@output_buffer.safe_concat('    <tr>
+      <th>
+        Friends
+      </th>
+      <td>
+        ');@output_buffer.append= ( @user.friends_count );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </td>
+    </tr>
+    <tr>
+      <th>
+        Followers
+      </th>
+      <td>
+        ');@output_buffer.append= ( @user.followers_count );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('      </td>
+    </tr>
+  </table>
+');   debug(@user) exit! 
+   unless @user.status.blank? 
+@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( "#{time_ago_in_words(@user.status.created_at).capitalize} ago, you said:" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    <q>
+      ');@output_buffer.append= ( @user.status.text );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </q>
+  </p>
+');   end 
+@output_buffer.safe_concat('  ');@output_buffer.append=  form_tag('/sessions/destroy', :method => :delete) do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag 'Sign out' );@output_buffer.safe_concat('
+');   end 
+ else 
+@output_buffer.safe_concat('  ');@output_buffer.append=  form_tag('/sessions') do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( image_submit_tag("sign-in-with-twitter.png") );@output_buffer.safe_concat('
+');   end 
+ end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/Ruby192/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:6:in `send_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__235694957__process_action__120713235__callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/sendfile.rb:107:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/runtime.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/lock.rb:11:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/content_length.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/handler/webrick.rb:52:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered sessions/new.html.erb within layouts/application (59.0ms)
+Completed   in 488ms
+
+ActionView::Template::Error (C:/wamp/www/twitter-app/app/views/sessions/new.html.erb:34: syntax error, unexpected tFID, expecting keyword_end
+');   debug(@user) exit! 
+                        ^):
+    31:       </td>
+    32:     </tr>
+    33:   </table>
+    34:   <% debug(@user) exit! %>
+    35:   <% unless @user.status.blank? %>
+    36:   <p>
+    37:     <%= "#{time_ago_in_words(@user.status.created_at).capitalize} ago, you said:" %>
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (43.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:57:01 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 439ms (Views: 61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 22:58:56 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 367ms (Views: 29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:07:28 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 441ms (Views: 64.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:16:20 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 23:16:26 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gJ6gXi+GYTcLIqgJMNrDJ/4pO4xFjKx47asvGK0WLGg=", "x"=>"122", "y"=>"11"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=KcF5lWeBKjyU8NFpo5C7D8Kez6MS3sT99FHBhhDP9RY
+Completed 302 Found in 118ms
+
+
+Started GET "/sessions/callback?oauth_token=KcF5lWeBKjyU8NFpo5C7D8Kez6MS3sT99FHBhhDP9RY&oauth_verifier=YHZn3jhsNmDyHZib4cFSjMJRC2CDBtL3ZDaDvoN2U" for 127.0.0.1 at 2011-08-18 23:16:32 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"KcF5lWeBKjyU8NFpo5C7D8Kez6MS3sT99FHBhhDP9RY", "oauth_verifier"=>"YHZn3jhsNmDyHZib4cFSjMJRC2CDBtL3ZDaDvoN2U"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 840ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:16:33 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (103.0ms)
+Completed 200 OK in 478ms (Views: 138.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:20:16 -0700
+  Processing by SessionsController#new as HTML
+ERROR: compiling _app_views_sessions_new_html_erb__1026919616_28633080_447262667 RAISED C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:14: unknown regexp option - p
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...=  form_tag('/sessions/destroy', :method => :delete) do @out...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:17: syntax error, unexpected tCONSTANT, expecting ')'
+...ffer.append= ( submit_tag 'Sign out' );@output_buffer.safe_c...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:20: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...r.append=  form_tag('/sessions') do @output_buffer.safe_conc...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:22: unterminated string meets end of file
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:22: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_sessions_new_html_erb__1026919616_28633080_447262667(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "sessions/new";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; if signed_in? 
+@output_buffer.safe_concat('  ');@output_buffer.append= ( image_tag(@user.profile_image_url).html_safe );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  <h3>
+    Welcome ');@output_buffer.append= ( link_to(@user.name, @user.url) );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  </h3>
+
+  ');@output_buffer.append= ( #debug(@user) );@output_buffer.safe_concat('
+');   unless @user.status.blank? 
+@output_buffer.safe_concat('  <p>
+    ');@output_buffer.append= ( "#{time_ago_in_words(@user.status.created_at).capitalize} ago, you said:" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    <q>
+      ');@output_buffer.append= ( @user.status.text );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    </q>
+  </p>
+');   end 
+@output_buffer.safe_concat('  ');@output_buffer.append=  form_tag('/sessions/destroy', :method => :delete) do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( submit_tag 'Sign out' );@output_buffer.safe_concat('
+');   end 
+ else 
+@output_buffer.safe_concat('  ');@output_buffer.append=  form_tag('/sessions') do @output_buffer.safe_concat('
+');@output_buffer.safe_concat('    ');@output_buffer.append= ( image_submit_tag("sign-in-with-twitter.png") );@output_buffer.safe_concat('
+');   end 
+ end 
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `module_eval'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:255:in `compile'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:134:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:54:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/template.rb:127:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:56:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_view/render/rendering.rb:26:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:115:in `_render_template'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:93:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:17:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+C:/Ruby192/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:39:in `render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:14:in `default_render'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/implicit_render.rb:6:in `send_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:150:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rendering.rb:11:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:436:in `_run__1039348018__process_action__545684843__callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:94:in `run_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `block in instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/notifications.rb:52:in `instrument'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rescue.rb:17:in `process_action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/base.rb:119:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/abstract_controller/rendering.rb:41:in `process'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal.rb:138:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_controller/metal.rb:178:in `block in action'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:27:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/routing/route_set.rb:493:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/head.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/methodoverride.rb:24:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/flash.rb:182:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/sendfile.rb:107:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/rack/logger.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/runtime.rb:17:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/lock.rb:11:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/static.rb:30:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/application.rb:168:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/application.rb:77:in `method_missing'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/railties-3.0.7/lib/rails/rack/log_tailer.rb:14:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/content_length.rb:13:in `call'
+C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.2.2/lib/rack/handler/webrick.rb:52:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered sessions/new.html.erb within layouts/application (133.0ms)
+Completed   in 568ms
+
+ActionView::Template::Error (C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:14: unknown regexp option - p
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:16: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...=  form_tag('/sessions/destroy', :method => :delete) do @out...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:17: syntax error, unexpected tCONSTANT, expecting ')'
+...ffer.append= ( submit_tag 'Sign out' );@output_buffer.safe_c...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:20: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...r.append=  form_tag('/sessions') do @output_buffer.safe_conc...
+...                               ^
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:22: unterminated string meets end of file
+C:/wamp/www/doubleimpact-twitter/app/views/sessions/new.html.erb:22: syntax error, unexpected $end, expecting ')'):
+    11:     <q>
+    12:       <%= @user.status.text %>
+    13:     </q>
+    14:   </p>
+    15:   <% end %>
+    16:   <%= form_tag('/sessions/destroy', :method => :delete) do %>
+    17:     <%= submit_tag 'Sign out' %>
+  
+
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.7/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (29.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:20:36 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 783ms (Views: 132.0ms)
+
+
+Started POST "/sessions/destroy" for 127.0.0.1 at 2011-08-18 23:20:44 -0700
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gJKQwAetvDnJMmIz3CCafJ0bs4FXv13JhW/3o1c5FDU=", "commit"=>"Sign out", "id"=>"destroy"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-18 23:20:44 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 23:21:08 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4zoKb08K+oLlayTSgdHKxgnfbmf0T56HVWkhrwbgiwc=", "x"=>"99", "y"=>"12"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=tizcP4I8KcJ7Cddr3v1X0jVOeIUDlvDasbM338mLi4
+Completed 302 Found in 111ms
+
+
+Started GET "/sessions/callback?oauth_token=tizcP4I8KcJ7Cddr3v1X0jVOeIUDlvDasbM338mLi4&oauth_verifier=uNbkrReLa5Q9EfCcmEi5Gv6TTq3N8UYKudymyZsPCU" for 127.0.0.1 at 2011-08-18 23:21:13 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"tizcP4I8KcJ7Cddr3v1X0jVOeIUDlvDasbM338mLi4", "oauth_verifier"=>"uNbkrReLa5Q9EfCcmEi5Gv6TTq3N8UYKudymyZsPCU"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 283ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:21:14 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 412ms (Views: 33.0ms)
+
+
+Started POST "/sessions/destroy" for 127.0.0.1 at 2011-08-18 23:21:28 -0700
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yR+vAknQ7f7g0e/uqJnJ12TOcS1Zknfp2tETgq0o7mc=", "commit"=>"Sign out", "id"=>"destroy"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-18 23:21:28 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 66ms (Views: 66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:26:51 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 26ms (Views: 25.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-18 23:26:56 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QDGQCu3JTm0wUESWoieQfNL/qzlXZsUU9hBqP7rsTD0=", "x"=>"101", "y"=>"13"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=vtaCTt9dwDoUnrRIsx5iLQLvtErP6grrl4feq1nKHEA
+Completed 302 Found in 90ms
+
+
+Started GET "/sessions/callback?oauth_token=vtaCTt9dwDoUnrRIsx5iLQLvtErP6grrl4feq1nKHEA&oauth_verifier=Qek4v0REJZ8vLi0h5royGs5TKuTS66MHJfAdbvXaJk" for 127.0.0.1 at 2011-08-18 23:26:59 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"vtaCTt9dwDoUnrRIsx5iLQLvtErP6grrl4feq1nKHEA", "oauth_verifier"=>"Qek4v0REJZ8vLi0h5royGs5TKuTS66MHJfAdbvXaJk"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 852ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-18 23:27:00 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (109.0ms)
+Completed 200 OK in 480ms (Views: 142.0ms)
+
+
+Started POST "/sessions/destroy" for 127.0.0.1 at 2011-08-18 23:27:04 -0700
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kHbqMiGRRNNhd8aO2O1PLczNzcMwZQTyu/qLsEVkMT4=", "commit"=>"Sign out", "id"=>"destroy"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-18 23:27:05 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 26.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-23 19:12:11 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 33.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-08-23 19:12:16 -0700
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eVQmo7hOyTfY03//xjffLT3flmgOD7xd050SZdlFQ30=", "x"=>"54", "y"=>"8"}
+Redirected to http://api.twitter.com/oauth/authorize?oauth_token=D7dJ7wPlABgOLiFoSK43URf96BPkLFKaRh35pXIO4
+Completed 302 Found in 99ms
+
+
+Started GET "/sessions/callback?oauth_token=D7dJ7wPlABgOLiFoSK43URf96BPkLFKaRh35pXIO4&oauth_verifier=n9snlP3TScHMfK7MjFt6cKAdrYquywE7SwkNnVpgM" for 127.0.0.1 at 2011-08-23 19:12:20 -0700
+  Processing by SessionsController#callback as HTML
+  Parameters: {"oauth_token"=>"D7dJ7wPlABgOLiFoSK43URf96BPkLFKaRh35pXIO4", "oauth_verifier"=>"n9snlP3TScHMfK7MjFt6cKAdrYquywE7SwkNnVpgM"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 879ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-23 19:12:21 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 489ms (Views: 123.0ms)
+
+
+Started POST "/sessions/destroy" for 127.0.0.1 at 2011-08-23 19:12:25 -0700
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X+20saxO9Z4nQasU4TMmQQ55s5ssfXbhTYHphACC7bs=", "commit"=>"Sign out", "id"=>"destroy"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1ms
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2011-08-23 19:12:25 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-08-23 19:12:31 -0700
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 28.0ms)
