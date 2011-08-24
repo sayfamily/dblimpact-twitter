@@ -1,9 +1,7 @@
-TwitterApp
+dblimpact-twitter
 ==========
-TwitterApp is a very basic Rails 3 application that demonstrates how to use the
-[Sign in with Twitter](http://dev.twitter.com/pages/sign_in_with_twitter)
-workflow with version 1.x of the [twitter
-gem]
+This is a simple app using Twitter gem 1.4.1 and oauth 0.4.4 and derived from TwitterApp
+
 Installation
 ------------
     git clone git@github.com:sayfamily/dblimpact-twitter.git
@@ -12,7 +10,7 @@ Installation
 
 Usage
 -----
-Using TwitterApp requires you to [register an app with
+Using dblimpact-twitter requires you to [register an app with
 Twitter](http://dev.twitter.com/apps) to obtain OAuth credentials. Once you
 obtain credentials, substitute your consumer key and secret into the command
 below.
